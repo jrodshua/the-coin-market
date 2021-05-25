@@ -27,3 +27,5 @@ const CoinIndex = () => {
 };
 
 export default CoinIndex;
+
+// data => array => data.id, data.cmc_rank, data.name, data.symbol, data.quote, data.quote.usd.price

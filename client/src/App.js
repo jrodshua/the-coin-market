@@ -1,12 +1,12 @@
-import CoinIndex from "./components/index";
+import React from "react";
+import Layout from "./components/layout";
 import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>coinmarket watcher</h1>
-      <CoinIndex />
-    </div>
+    <>
+      <Layout />
+    </>
   );
 };
 
